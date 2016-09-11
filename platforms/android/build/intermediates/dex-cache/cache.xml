@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Mobility\myworks\MotorRemote\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="90baf9463bc9f95c2182b1541237f2be2b74e2b0">
+        <dex dex="C:\Mobility\myworks\MotorRemote\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_55434794978596a0a891624148a49ed6cc376306.jar" />
+    </item>
+
+</items>

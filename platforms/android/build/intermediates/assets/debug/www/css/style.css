@@ -1,0 +1,52 @@
+/* Empty. Add your own CSS if you like */
+.MotorsTab > .tabs
+{
+	top: 0px;
+}
+.MasterCard
+{
+	margin-top:50px;
+}
+
+.MasterCard > .item > .row > .col
+{
+	padding:0;
+}
+.controls
+{
+	margin-top:50px;
+}
+
+.controls > .row > .col i
+{
+	font-size:3em;
+}
+
+.controls > .row > .col
+{
+	text-align: center;
+	transform:translateY(25%);
+}
+
+.tabs .tab-item .icon.Motor2Icon
+{
+	background-repeat: no-repeat;
+  background-position: 50%;
+  height: 70%;
+  background-image: url('../img/motor.png');
+  background-size:contain;
+}
+
+.ArmIcon
+{
+	background-repeat: no-repeat;
+  background-position: 50%;
+  height: 70%;
+  background-image: url('../img/arm.png');
+  background-size:contain;	
+}
+.SpeedoMeter
+{
+	text-align:center;
+	padding-top:3px;
+}

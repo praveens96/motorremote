@@ -1,0 +1,51 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<!-- <ion-content> -->
+<div class="card MasterCard" ng-controller="AppCtrl">
+	<div class="item">
+		<div class="row">
+			<div class="col col-49" ng-click="Stop()">
+				<button class="button icon-left ion-stop button-assertive">Stop</button>
+				
+			</div>
+			<!-- 
+			<div class="col col-30">
+				<button class="button icon-left ion-pause button-energized">Halt</button>
+			</div> -->
+			<div class="col col-49" ng-click="Connectivity()">
+				<button class="button icon-left ion-android-wifi button-calm">Connectivity</button>
+			</div>
+			
+		</div>
+		<div class="SpeedoMeter">
+			<span>Speed </span><strong><span> 12</span></strong><span> KMPH</span>
+		</div>
+	</div>
+</div>
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+
+  <!-- Dashboard Tab -->
+  <ion-tab title="Arm 1" icon-off="ArmIcon" icon-on="ArmIcon" href="#/tab/arm1">
+    <ion-nav-view name="tab-arm1"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Chats Tab -->
+  <ion-tab title="Arm 2" icon-off="ArmIcon" icon-on="ArmIcon" href="#/tab/arm2">
+    <ion-nav-view name="tab-arm2"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Account Tab -->
+  <ion-tab title="Arm 3" icon-off="ArmIcon" icon-on="ArmIcon" href="#/tab/arm3">
+    <ion-nav-view name="tab-arm3"></ion-nav-view>
+  </ion-tab>
+  <!-- Arm4 Tab -->
+  <ion-tab title="Arm 4" icon-off="ArmIcon" icon-on="ArmIcon" href="#/tab/arm4">
+    <ion-nav-view name="tab-arm4"></ion-nav-view>
+  </ion-tab>
+
+
+</ion-tabs>
+<!-- </ion-content> -->

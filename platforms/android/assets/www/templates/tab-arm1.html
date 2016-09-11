@@ -1,0 +1,64 @@
+<ion-view view-title="Arm 1">
+		<ion-tabs class="tabs-striped tabs-top tabs-icon-top MotorsTab tabs-background-assertive tabs-color-light"><!-- tabs-messages tabs-top tabs-icon-top  has-tabs-top tabs-striped  tabs-color-assertive -->
+			<ion-tab title="Motor 1" icon-on="Motor2Icon" icon-off="Motor2Icon" href="#/app/tab/arm1/motor1" ng-controller="Motor1Arm1Ctrl">
+				
+				<!-- <ion-nav-view name="tab-arm1-motor1"></ion-nav-view> -->
+				<div class="controls">
+					<div class="row">
+						<div class="col col-48" ng-click="tap('Arm1-Motor1-Rotate-Left')">
+							<!-- <i class="ion-arrow-return-right"></i> -->
+							<img src="img/rotate-left.png"/>
+							<div >Rotate Left</div>
+						</div>
+						<div class="col col-48" ng-click="tap('Arm1-Motor1-Rotate-Right')">
+							<!-- <i class="ion-arrow-return-left"></i> -->
+							<img src="img/rotate-right.png"/>
+							<div >Rotate Right</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col col-48" ng-click="tap('Arm1-Motor1-Rotate-Reset')">
+							<!-- <i class="ion-ios-loop-strong"></i> -->
+							<img src="img/reset.png"/>
+							<div>Reset Rotation</div>
+						</div>
+						<div class="col col-48" ng-click="tap('Arm1-Motor1-Rotate-brake')">
+							<!-- <i class="ion-minus-circled"></i> -->
+							<img src="img/brake.png">
+							<div>brake</div>
+						</div>
+					</div>
+				</div>
+			</ion-tab>
+			<ion-tab title="Motor 2" icon-on="Motor2Icon" icon-off="Motor2Icon"  href="#/app/tab/arm1/motor2" ng-controller="Motor2Arm1Ctrl"> <!-- icon-off="ion-ios-paperplane-outline" -->
+				<!-- <ion-nav-view name="tab-messages-sent"></ion-nav-view> -->
+				<div class="controls">
+					<div class="row">
+						<div class="col col-48" ng-click="tap('Arm1-Motor2-Rotate-Left')">
+							<!-- <i class="ion-arrow-return-right"></i> -->
+							<img src="img/rotate-left.png"/>
+							<div >Rotate Left</div>
+						</div>
+						<div class="col col-48" ng-click="tap('Arm1-Motor2-Rotate-Right')">
+							<!-- <i class="ion-arrow-return-left"></i> -->
+							<img src="img/rotate-right.png"/>
+							<div >Rotate Right</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col col-48" ng-click="tap('Arm1-Motor2-Rotate-Reset')">
+							<!-- <i class="ion-ios-loop-strong"></i> -->
+							<img src="img/reset.png"/>
+							<div>Reset Rotation</div>
+						</div>
+						<div class="col col-48" ng-click="tap('Arm1-Motor2-Rotate-brake')">
+							<!-- <i class="ion-minus-circled"></i> -->
+							<img src="img/brake.png">
+							<div>brake</div>
+						</div>
+					</div>
+				</div>
+			</ion-tab>
+		</ion-tabs>
+	
+</ion-view>
